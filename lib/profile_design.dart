@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:math' as math;
 
+void main() => runApp(ProfilePageDesign());
+
 class ProfilePageDesign extends StatefulWidget {
   @override
   _ProfilePageDesignState createState() => _ProfilePageDesignState();

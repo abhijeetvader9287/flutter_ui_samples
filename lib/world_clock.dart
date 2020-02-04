@@ -4,7 +4,9 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
+void main() {
+  runApp(HomePage());
+}
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
